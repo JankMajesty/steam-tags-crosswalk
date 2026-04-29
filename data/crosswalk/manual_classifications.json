@@ -1,0 +1,998 @@
+{
+  "metadata": {
+    "description": "Manual classifications for SteamDB sub-genre tags against VGMS vocabularies. Each tag is independently mapped to both VGMS Gameplay Genre (v1.3) and VGMS Mechanics (v1.1).",
+    "source_vocabulary": "SteamDB Sub-Genres",
+    "target_vocabularies": ["VGMS Gameplay Genre v1.3", "VGMS Mechanics v1.1"],
+    "valid_values": {
+      "match_type": ["exact", "partial", "gap_steam"],
+      "confidence": ["high", "medium", "low"],
+      "semantic_relationship": [
+        "equivalent",
+        "broader",
+        "narrower",
+        "related",
+        "no_match"
+      ]
+    },
+    "instructions": "Fill in each tag entry with genre and mechanics mappings. Empty match_type fields will fall through to automated string matching. Set match_type to gap_steam with vgms_term null for tags with no VGMS equivalent.",
+    "last_updated": ""
+  },
+  "classifications": {
+    "Exploration": {
+      "genre": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "2D Platformer": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Platform",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "2D platformer matches the traditional platformer games. VGMS makes no distinction between 2D and 3D platformers"
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Jumping",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "Jumping is probably what first comes to mind when you think of platformer, but avoiding is a close secondary in the VGMS"
+      }
+    },
+    "Roguelite": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Rogue-Like",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "rogue-lite's are rogue-like's casual cousin, where progression is carried between sessions"
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": "perma-death is usually a defining mechanic of rogue games"
+      }
+    },
+    "FPS": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "First Person Shooter",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "broader",
+        "notes": ""
+      }
+    },
+    "Immersive Sim": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Simulation",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "This tag combines a genre and a mood (Immersive) within the VGMS. After consulting the wikipedia page. Immersive Sim is a broad term, so many of the NT in VGMS could match."
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "Action Roguelike": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Rogue-Like",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "Action Rogue-like combines the RPG elements of a roguelike game with the action genre."
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "3D Platformer": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Platform",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Jumping",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": ""
+      }
+    },
+    "Choose Your Own Adventure": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Role-Playing",
+        "confidence": "low",
+        "semantic_relationship": "related",
+        "notes": "Choose your own adventures may not always be Role-playing games, but they typically are"
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Choosing",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "these are closely related, but VGMS lists two wildly different games under the choosing mechanic: mass effect and you don't know jack"
+      }
+    },
+    "Turn-Based Tactics": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Tactics",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "This one is kind of interesting. VGMS has this under Strategy but I often think of RPG because of Final Fantasy Tactics"
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Positioning",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "I would think VGMS would have Turn-Based as a mechanic. Positioning covers a lot more ground than turn-based tactics"
+      }
+    },
+    "Hidden Object": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "Hidden Object",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": "Choosing or pattern match are somewhat close, but I don't think that Hidden Object mechanics are covered in VGMS. Maybe Matching also"
+      }
+    },
+    "Side Scroller": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Platform",
+        "confidence": "low",
+        "semantic_relationship": "related",
+        "notes": "Side Scrollers tend to be 2D platformers, but not always"
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": "I'm not sure Side Scroller is a mechanic or a genre, maybe a style"
+      }
+    },
+    "Puzzle Platformer": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Platform",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Could also go under Puzzle, but I think Platform takes precedent on this one"
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Jumping",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "This one is tough, many games tagged Puzzle Platformer involved jumping but not always. Animal Well is a Puzzle Platformer and a Metroidvania according to tags."
+      }
+    },
+    "Shoot 'Em Up": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "Shooter",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": "VGMS says use Shooter for this, but I don't think they're equivalent. I think Shoot 'em Up is narrower than Shooter"
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Bullet Hell": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Shooter",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "specific type of shooter, top-down view typically"
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Hack and Slash": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "Hack and Slash",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Fighting",
+        "confidence": "low",
+        "semantic_relationship": "related",
+        "notes": "Typically fighting refers to games where two or more players fight against each other on a 2D plane. You do fight in HnS, but usually solo or co-op."
+      }
+    },
+    "Clicker": {
+      "genre": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "Dungeon Crawler": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Role-Playing",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Dungeon Crawler's tend to be RPG but also typically action RPG."
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "Idler": {
+      "genre": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "Top-Down Shooter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Shooter",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": ""
+      }
+    },
+    "Time Management": {
+      "genre": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Resource Management",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": ""
+      }
+    },
+    "Third-Person Shooter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Shooter",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Surprising that VGMS has FPS but not TPS"
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Collectathon": {
+      "genre": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Collecting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Precision Platformer": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Platform",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Jumping",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Same with other platformers"
+      }
+    },
+    "Real Time Tactics": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Strategy",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "This one is tough becase Strategy is the broader term, but VGMS has Real-Time and Tactics both as narrower terms"
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Positioning",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "This is like the other tactics sub-genres were positioning is part of it, but not the whole"
+      }
+    },
+    "Arena Shooter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Shooter",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Arena shooter is like quake or unreal tournament"
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Card Battler": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Card Game",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "card battlers are card games, but specifically involve some kind of combat"
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Card Playing",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Card Battlers typically involve playing cards, but they can also include Deck Building which is another VGMS mechanic term"
+      }
+    },
+    "Tactical RPG": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Role-Playing",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "closely related to Turn-Based Tactics"
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Positioning",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "Same problem as Turn-Based Tactics"
+      }
+    },
+    "Wargame": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "Military Simulator",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Positioning",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "kind of like tactics, Positioning is part of it, but there's much more"
+      }
+    },
+    "Creature Collector": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Role-Playing",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Creature collectors, like pokemon, have RPG elements, but they also have some specific mechanics that not all RPGs have."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Collecting",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "Creature collectors have a collecting mechanic, but also typically involve doing battle with the creatures and have RPG elements when it comes to creature progression."
+      }
+    },
+    "Metroidvania": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Platform",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "This genre, a concatenation of Castlevania + Metroidvania is a colloquially defined genre that encompasses elements of platformer, action, and role-playing elements for character progression."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Collecting",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Metroidvania's typically require you to collect items to unlock the next zone."
+      }
+    },
+    "Souls-like": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Action-Adventure",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "Souls-like's are named after dark-souls, which is an action-adventure game with RPG elements, that also has a mechanic that when you die, you reset at the last checkpoint and lose resources collected."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Fighting",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "Souls-likes typically involve some kind of fighting."
+      }
+    },
+    "Runner": {
+      "genre": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": "I'm not sure this steam tag is actually that useful."
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "Flight": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Flight Simulator",
+        "confidence": "high",
+        "semantic_relationship": "broader",
+        "notes": "There is flying in flight simulators, but this classification could extend beyond flying planes. Also, this tag reads more like a mechanic than gameplay genre imo."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Driving",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "VGMS uses driving as a use for Flying. I'm not sure that encompasses flight when it comes to humanoid flyers."
+      }
+    },
+    "CRPG": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Western RPG",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "VGMS lists Baldur's Gate as a western RPG which it is, but CRPG is also a specific type of western RPG"
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Fighting",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Fighting is typically involved in CRPG, except when it's not (Disco Elysium)"
+      }
+    },
+    "Twin Stick Shooter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Shooter",
+        "confidence": "medium",
+        "semantic_relationship": "narrower",
+        "notes": "Twin stick shooters are a type of Shoot 'em Up closely related to and often overlapping bullet hell. VGMS wants you to use the broader term 'Shooter' instead of 'Shoot 'em Up'."
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Match 3": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "Match Puzzles",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Matching",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Mystery Dungeon": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Role-Playing",
+        "confidence": "medium",
+        "semantic_relationship": "narrower",
+        "notes": "see Dungeon Crawler."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Fighting",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": ""
+      }
+    },
+    "Looter Shooter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Shooter",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "Looter Shooters are a type of shooter game that focus on loot and treasure collection. It is related because many, but not all looter shooters incorporate RPG elements."
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Spectacle fighter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Action",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "games like DMC with highly stylistic fighting."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Fighting",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": ""
+      }
+    },
+    "Roguelike Deckbuilder": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Card Game",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "This one is split between Card Game (which is pretty broad to describe this) and rogue-like which the VGMS describes more so within the Role-Playing genre."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Deck Building",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "These games are deck-builders, but they also involve rogue-like mechanics like perma-death."
+      }
+    },
+    "Hero Shooter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Shooter",
+        "confidence": "medium",
+        "semantic_relationship": "narrower",
+        "notes": "Hero Shooters are like overwatch or team fortress, usually objective based and force you to play a certain archetype character. Sometimes they are third-person however."
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Solitaire": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "Card Game",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Card Playing",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Combat Racing": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Racing",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Racing takes precedent, but fighting is part if it, however, not fighting like VGMS describes typically, they're describing games like Street Fighter. Vehicle combat is another Gameplay Genre term, but doesn't always include racing."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Driving",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "typically driving in a combat racer, but also doing combat, which could be fighting."
+      }
+    },
+    "Action RTS": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "Real-Time",
+        "confidence": "medium",
+        "semantic_relationship": "equivalent",
+        "notes": "RTS is typically action, so I'm not sure this is a narrower term exactly. However, it's not easy for me to surmise exactly what is meant by Steam Users for Action RTS."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Resource Management",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Resource Management is typically part of RTS, but also fighting, and positioning."
+      }
+    },
+    "Trading Card Game": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Card Game",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Card Playing",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Trading Card Games typically involve playing cards, but also Deck Buidling. and Collecting."
+      }
+    },
+    "Sokoban": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Puzzle",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "This is a highly specific type of top-down puzzle game named after a specific game titled, Sokoban, from 1981."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Positioning",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Sokoban's are typically grid-based and require intricate positioning to complete the puzzle."
+      }
+    },
+    "Boomer Shooter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "First Person Shooter",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Boomer Shooter is a term for games inspired by DOOM"
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Typing": {
+      "genre": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Text Input",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Political Sim": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Construction & Management Simulation",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "A Political Sim, like Democracy, is hard to match to VGMS. I'm not sure it's a Social Simulator, I thought it was closest to construction & management, but it's still a bit different than that."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Resource Management",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Typicallly you manage resources in a political sim, but there's more to it than that."
+      }
+    },
+    "Shop Keeper": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Social Simulator",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Closest I could get is Social Simulator, but I'm not sure how well it maps."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Resource Management",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "You typically have to manage resources in a shop keeper game"
+      }
+    },
+    "Escape Room": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Puzzle",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Escape room is a type of puzzle."
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "Traditional Roguelike": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Rogue-Like",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "typically refers to the style of traditional rogue-likes. Procedurally generated, perma-death, low poly."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Fighting",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "Fighting is typically part of a traditional roguelike, but not a defining characteristic."
+      }
+    },
+    "On-Rails Shooter": {
+      "genre": {
+        "match_type": "exact",
+        "vgms_term": "Rail Shooter",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Spelling": {
+      "genre": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Text Input",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Outbreak Sim": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Construction & Management Simulation",
+        "confidence": "low",
+        "semantic_relationship": "related",
+        "notes": "I would say the management simulation is doing more here than construction."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Resource Management",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": ""
+      }
+    },
+    "Roguevania": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Platform",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "This is a narrower term for metroidvania, typically involving permadeath and procedural generation."
+      },
+      "mechanics": {
+        "match_type": "partial",
+        "vgms_term": "Fighting",
+        "confidence": "high",
+        "semantic_relationship": "related",
+        "notes": "Fighting is typically part of it, but there are a lot of defining mechnics of this type of game."
+      }
+    },
+    "Medical Sim": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Simulation",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "Extraction Shooter": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Shooter",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "This is a pretty new term for shooters where you drop in, loot, and extract."
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Shooting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Boss Rush": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Action",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": "Typically games where you only fight bosses."
+      },
+      "mechanics": {
+        "match_type": "exact",
+        "vgms_term": "Fighting",
+        "confidence": "high",
+        "semantic_relationship": "equivalent",
+        "notes": ""
+      }
+    },
+    "Mahjong": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Card Game",
+        "confidence": "medium",
+        "semantic_relationship": "related",
+        "notes": "It's like a card game, but uses tiles"
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    },
+    "Cricket": {
+      "genre": {
+        "match_type": "partial",
+        "vgms_term": "Sports",
+        "confidence": "high",
+        "semantic_relationship": "narrower",
+        "notes": ""
+      },
+      "mechanics": {
+        "match_type": "gap_steam",
+        "vgms_term": null,
+        "confidence": "",
+        "semantic_relationship": "",
+        "notes": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "vocabulary": "Mechanics",
+  "version": "1.1",
+  "date": "2024-12-12",
+  "citation": "Lee, J. H., Schmalz, M., Newman, M., & Koughan, L. D. (2024). UW/SIMM Video Game Metadata Schema: Controlled Vocabulary for Mechanics. Version 1.1. Retrieved from: https://github.com/uwgamergroup/vocabulary-mechanics",
+  "source_url": "https://github.com/uwgamergroup/vocabulary-mechanics",
+  "terms": {
+    "Activation": {
+      "term_type": "preferred",
+      "scope_note": "User has no agency outside of activating either the game or their turn.",
+      "related_terms": [],
+      "use_for": [
+        "None",
+        "Random Chance"
+      ],
+      "examples": [
+        "Slot machines",
+        "Candy Land"
+      ]
+    },
+    "Avoiding": {
+      "term_type": "preferred",
+      "scope_note": "Taking action to preclude encountering unwanted objects or circumstances.",
+      "related_terms": [
+        "Jumping"
+      ],
+      "use_for": [],
+      "examples": [
+        "Asteroids",
+        "Super Mario Bros.",
+        "Pac-Man"
+      ]
+    },
+    "Building": {
+      "term_type": "preferred",
+      "scope_note": "Creating objects in the environment.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Minecraft",
+        "The Sims",
+        "SimCity"
+      ]
+    },
+    "Card Playing": {
+      "term_type": "preferred",
+      "scope_note": "Selecting for use an object from a set of similar objects (cards, tiles, etc.).",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Hearthstone",
+        "Magic: The Gathering Arena"
+      ]
+    },
+    "Choosing": {
+      "term_type": "preferred",
+      "scope_note": "Selecting an option from a set of choices.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Mass Effect",
+        "You Don't Know Jack"
+      ]
+    },
+    "Climbing": {
+      "term_type": "preferred",
+      "scope_note": "Navigating along a vertically-inclined, non-ground surface.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Shadow of the Colossus",
+        "Assassin's Creed"
+      ]
+    },
+    "Collecting": {
+      "term_type": "preferred",
+      "scope_note": "Acquiring a set of objects.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Pac-Man",
+        "Katamari Damacy",
+        "Goat Simulator"
+      ]
+    },
+    "Crafting": {
+      "term_type": "preferred",
+      "scope_note": "Combining objects to create a new object.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Minecraft",
+        "Doodle God",
+        "Skyrim"
+      ]
+    },
+    "Deck Building": {
+      "term_type": "preferred",
+      "scope_note": "Selecting a subset of objects for later use.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Hearthstone",
+        "Magic: The Gathering Arena"
+      ]
+    },
+    "Destroying": {
+      "term_type": "preferred",
+      "scope_note": "Destroying objects in the environment.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Minecraft",
+        "Red Faction",
+        "Monster Truck Destruction"
+      ]
+    },
+    "Drawing": {
+      "term_type": "preferred",
+      "scope_note": "Using freeform input to create a design as either a creation tool or command input.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Line Rider",
+        "Okami"
+      ]
+    },
+    "Driving": {
+      "term_type": "preferred",
+      "scope_note": "Navigating a vehicle through the environment. 'Vehicle' is defined as any object conforming to movement rules (e.g. car, skateboard, horse, etc.).",
+      "related_terms": [],
+      "use_for": [
+        "Flying",
+        "Piloting",
+        "Sailing",
+        "Riding"
+      ],
+      "examples": [
+        "Grand Theft Auto",
+        "Forza",
+        "Mech Warrior",
+        "Star Fox"
+      ]
+    },
+    "Fighting": {
+      "term_type": "preferred",
+      "scope_note": "Characters attempting to exert their power over others through force.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Super Smash Bros.",
+        "League of Legends",
+        "Hyrule Warriors"
+      ]
+    },
+    "Flying": {
+      "term_type": "non-preferred",
+      "use": "Driving",
+      "scope_note": null,
+      "related_terms": [],
+      "use_for": [],
+      "examples": []
+    },
+    "Grab & Release": {
+      "term_type": "preferred",
+      "scope_note": "Picking up and setting down objects.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Octodad: Dadliest Catch"
+      ]
+    },
+    "Hitting": {
+      "term_type": "preferred",
+      "scope_note": "Exerting force on an object already in motion.",
+      "related_terms": [
+        "Shooting"
+      ],
+      "use_for": [],
+      "examples": [
+        "Pinball",
+        "Baseball",
+        "Piano Tiles"
+      ]
+    },
+    "Input Combinations": {
+      "term_type": "preferred",
+      "scope_note": "A specific sequence of inputs which result in a single event.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Tony Hawk's Pro Skater",
+        "Marvel vs. Capcom"
+      ]
+    },
+    "Jumping": {
+      "term_type": "preferred",
+      "scope_note": "Causing a character to jump in the environment.",
+      "related_terms": [
+        "Avoiding"
+      ],
+      "use_for": [],
+      "examples": [
+        "Super Mario Bros.",
+        "Sonic the Hedgehog"
+      ]
+    },
+    "Matching": {
+      "term_type": "preferred",
+      "scope_note": "Connecting similar objects through positioning or identification.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Bejeweled",
+        "Puzzle & Dragon",
+        "Memory"
+      ]
+    },
+    "None": {
+      "term_type": "non-preferred",
+      "use": "Activation",
+      "scope_note": null,
+      "related_terms": [],
+      "use_for": [],
+      "examples": []
+    },
+    "Pattern Matching": {
+      "term_type": "preferred",
+      "scope_note": "Player repeats or simultaneously responds to game patterns.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Guitar Hero",
+        "Dance Dance Revolution",
+        "Simon Says"
+      ]
+    },
+    "Piloting": {
+      "term_type": "non-preferred",
+      "use": "Driving",
+      "scope_note": null,
+      "related_terms": [],
+      "use_for": [],
+      "examples": []
+    },
+    "Positioning": {
+      "term_type": "preferred",
+      "scope_note": "Placing or moving objects or events within the game world as a necessary gameplay element to advance to the next level/zone (Block placement in puzzle games, unit placement in tactics games with stat impact, etc.).",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Sudoku",
+        "Plants vs. Zombies",
+        "Tetris",
+        "Dear Esther"
+      ]
+    },
+    "Programming": {
+      "term_type": "preferred",
+      "scope_note": "Utilizing programming logic to create game behaviors.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Omega",
+        "Codecombat",
+        "Gidget"
+      ]
+    },
+    "Random Chance": {
+      "term_type": "non-preferred",
+      "use": "Activation",
+      "scope_note": null,
+      "related_terms": [],
+      "use_for": [],
+      "examples": []
+    },
+    "Resource Management": {
+      "term_type": "preferred",
+      "scope_note": "Selecting how and when to gather or use resources.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "League of Legends",
+        "Plants vs. Zombies",
+        "The Sims"
+      ]
+    },
+    "Riding": {
+      "term_type": "non-preferred",
+      "use": "Driving",
+      "scope_note": null,
+      "related_terms": [],
+      "use_for": [],
+      "examples": []
+    },
+    "Sailing": {
+      "term_type": "non-preferred",
+      "use": "Driving",
+      "scope_note": null,
+      "related_terms": [],
+      "use_for": [],
+      "examples": []
+    },
+    "Sharing": {
+      "term_type": "preferred",
+      "scope_note": "Transferal of a game object from one player to another.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Minecraft",
+        "Farmville"
+      ]
+    },
+    "Shooting": {
+      "term_type": "preferred",
+      "scope_note": "Applying directional force to a stationary object.",
+      "related_terms": [
+        "Hitting"
+      ],
+      "use_for": [],
+      "examples": [
+        "Call of Duty",
+        "Bubble Bobble",
+        "Pool"
+      ]
+    },
+    "Sneaking": {
+      "term_type": "preferred",
+      "scope_note": "Movement with the intent of evading detection of other game entities.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Metal Gear Solid",
+        "Assassin's Creed",
+        "Stealth Bastard"
+      ]
+    },
+    "Swiping": {
+      "term_type": "preferred",
+      "scope_note": "Using a sustained pointer motion to create an event.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Fruit Ninja",
+        "Cooking Mama"
+      ]
+    },
+    "Text Input": {
+      "term_type": "preferred",
+      "scope_note": "Entering text to produce commands or provide data.",
+      "related_terms": [],
+      "use_for": [],
+      "examples": [
+        "Zork",
+        "The Typing of The Dead: Overkill"
+      ]
+    }
+  }
+}

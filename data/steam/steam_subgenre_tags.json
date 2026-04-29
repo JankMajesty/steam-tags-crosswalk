@@ -1,0 +1,376 @@
+{
+  "fetch_date": "2026-04-16",
+  "description": "Steam tags filtered to SteamDB's Sub-Genre category. SteamDB imposes genre/sub-genre structure on Steam's flat tag namespace, acting as a third-party editorial classification of the folksonomy.",
+  "filtering_criteria": "Tags are sourced from SteamDB's Sub-Genre category, which represents a community-maintained editorial classification of Steam's unstructured tag list. This provides an external authority for sub-genre categorization rather than relying on researcher judgment for tag selection.",
+  "source": "SteamDB tag browser, Sub-Genres category",
+  "transcription_date": "2026-04-16",
+  "total_subgenre_tags": 61,
+  "tags": [
+    {
+      "tagid": 3834,
+      "name": "Exploration",
+      "steam_api_popularity_rank": 16,
+      "steamdb_subgenre_rank": 1
+    },
+    {
+      "tagid": 5379,
+      "name": "2D Platformer",
+      "steam_api_popularity_rank": 65,
+      "steamdb_subgenre_rank": 2
+    },
+    {
+      "tagid": 3959,
+      "name": "Roguelite",
+      "steam_api_popularity_rank": 68,
+      "steamdb_subgenre_rank": 3
+    },
+    {
+      "tagid": 1663,
+      "name": "FPS",
+      "steam_api_popularity_rank": 69,
+      "steamdb_subgenre_rank": 4
+    },
+    {
+      "tagid": 9204,
+      "name": "Immersive Sim",
+      "steam_api_popularity_rank": 79,
+      "steamdb_subgenre_rank": 5
+    },
+    {
+      "tagid": 42804,
+      "name": "Action Roguelike",
+      "steam_api_popularity_rank": 88,
+      "steamdb_subgenre_rank": 6
+    },
+    {
+      "tagid": 5395,
+      "name": "3D Platformer",
+      "steam_api_popularity_rank": 91,
+      "steamdb_subgenre_rank": 7
+    },
+    {
+      "tagid": 4486,
+      "name": "Choose Your Own Adventure",
+      "steam_api_popularity_rank": 94,
+      "steamdb_subgenre_rank": 8
+    },
+    {
+      "tagid": 14139,
+      "name": "Turn-Based Tactics",
+      "steam_api_popularity_rank": 100,
+      "steamdb_subgenre_rank": 9
+    },
+    {
+      "tagid": 1646,
+      "name": "Hack and Slash",
+      "steam_api_popularity_rank": 108,
+      "steamdb_subgenre_rank": 15
+    },
+    {
+      "tagid": 1738,
+      "name": "Hidden Object",
+      "steam_api_popularity_rank": 109,
+      "steamdb_subgenre_rank": 10
+    },
+    {
+      "tagid": 3798,
+      "name": "Side Scroller",
+      "steam_api_popularity_rank": 112,
+      "steamdb_subgenre_rank": 11
+    },
+    {
+      "tagid": 5537,
+      "name": "Puzzle Platformer",
+      "steam_api_popularity_rank": 113,
+      "steamdb_subgenre_rank": 12
+    },
+    {
+      "tagid": 4885,
+      "name": "Bullet Hell",
+      "steam_api_popularity_rank": 114,
+      "steamdb_subgenre_rank": 14
+    },
+    {
+      "tagid": 1720,
+      "name": "Dungeon Crawler",
+      "steam_api_popularity_rank": 118,
+      "steamdb_subgenre_rank": 17
+    },
+    {
+      "tagid": 4255,
+      "name": "Shoot 'Em Up",
+      "steam_api_popularity_rank": 119,
+      "steamdb_subgenre_rank": 13
+    },
+    {
+      "tagid": 379975,
+      "name": "Clicker",
+      "steam_api_popularity_rank": 122,
+      "steamdb_subgenre_rank": 16
+    },
+    {
+      "tagid": 615955,
+      "name": "Idler",
+      "steam_api_popularity_rank": 154,
+      "steamdb_subgenre_rank": 18
+    },
+    {
+      "tagid": 3814,
+      "name": "Third-Person Shooter",
+      "steam_api_popularity_rank": 156,
+      "steamdb_subgenre_rank": 21
+    },
+    {
+      "tagid": 4637,
+      "name": "Top-Down Shooter",
+      "steam_api_popularity_rank": 157,
+      "steamdb_subgenre_rank": 19
+    },
+    {
+      "tagid": 16689,
+      "name": "Time Management",
+      "steam_api_popularity_rank": 160,
+      "steamdb_subgenre_rank": 20
+    },
+    {
+      "tagid": 5652,
+      "name": "Collectathon",
+      "steam_api_popularity_rank": 170,
+      "steamdb_subgenre_rank": 22
+    },
+    {
+      "tagid": 3813,
+      "name": "Real Time Tactics",
+      "steam_api_popularity_rank": 172,
+      "steamdb_subgenre_rank": 24
+    },
+    {
+      "tagid": 3877,
+      "name": "Precision Platformer",
+      "steam_api_popularity_rank": 180,
+      "steamdb_subgenre_rank": 23
+    },
+    {
+      "tagid": 5547,
+      "name": "Arena Shooter",
+      "steam_api_popularity_rank": 182,
+      "steamdb_subgenre_rank": 25
+    },
+    {
+      "tagid": 29482,
+      "name": "Souls-like",
+      "steam_api_popularity_rank": 185,
+      "steamdb_subgenre_rank": 31
+    },
+    {
+      "tagid": 21725,
+      "name": "Tactical RPG",
+      "steam_api_popularity_rank": 186,
+      "steamdb_subgenre_rank": 27
+    },
+    {
+      "tagid": 791774,
+      "name": "Card Battler",
+      "steam_api_popularity_rank": 187,
+      "steamdb_subgenre_rank": 26
+    },
+    {
+      "tagid": 4684,
+      "name": "Wargame",
+      "steam_api_popularity_rank": 194,
+      "steamdb_subgenre_rank": 28
+    },
+    {
+      "tagid": 916648,
+      "name": "Creature Collector",
+      "steam_api_popularity_rank": 200,
+      "steamdb_subgenre_rank": 29
+    },
+    {
+      "tagid": 1628,
+      "name": "Metroidvania",
+      "steam_api_popularity_rank": 205,
+      "steamdb_subgenre_rank": 30
+    },
+    {
+      "tagid": 4474,
+      "name": "CRPG",
+      "steam_api_popularity_rank": 209,
+      "steamdb_subgenre_rank": 34
+    },
+    {
+      "tagid": 15045,
+      "name": "Flight",
+      "steam_api_popularity_rank": 210,
+      "steamdb_subgenre_rank": 33
+    },
+    {
+      "tagid": 8666,
+      "name": "Runner",
+      "steam_api_popularity_rank": 214,
+      "steamdb_subgenre_rank": 32
+    },
+    {
+      "tagid": 4758,
+      "name": "Twin Stick Shooter",
+      "steam_api_popularity_rank": 243,
+      "steamdb_subgenre_rank": 35
+    },
+    {
+      "tagid": 353880,
+      "name": "Looter Shooter",
+      "steam_api_popularity_rank": 259,
+      "steamdb_subgenre_rank": 38
+    },
+    {
+      "tagid": 198631,
+      "name": "Mystery Dungeon",
+      "steam_api_popularity_rank": 261,
+      "steamdb_subgenre_rank": 37
+    },
+    {
+      "tagid": 620519,
+      "name": "Hero Shooter",
+      "steam_api_popularity_rank": 278,
+      "steamdb_subgenre_rank": 41
+    },
+    {
+      "tagid": 4777,
+      "name": "Spectacle fighter",
+      "steam_api_popularity_rank": 279,
+      "steamdb_subgenre_rank": 39
+    },
+    {
+      "tagid": 1665,
+      "name": "Match 3",
+      "steam_api_popularity_rank": 280,
+      "steamdb_subgenre_rank": 36
+    },
+    {
+      "tagid": 4102,
+      "name": "Combat Racing",
+      "steam_api_popularity_rank": 282,
+      "steamdb_subgenre_rank": 43
+    },
+    {
+      "tagid": 1091588,
+      "name": "Roguelike Deckbuilder",
+      "steam_api_popularity_rank": 284,
+      "steamdb_subgenre_rank": 40
+    },
+    {
+      "tagid": 1723,
+      "name": "Action RTS",
+      "steam_api_popularity_rank": 289,
+      "steamdb_subgenre_rank": 44
+    },
+    {
+      "tagid": 9271,
+      "name": "Trading Card Game",
+      "steam_api_popularity_rank": 296,
+      "steamdb_subgenre_rank": 45
+    },
+    {
+      "tagid": 13070,
+      "name": "Solitaire",
+      "steam_api_popularity_rank": 299,
+      "steamdb_subgenre_rank": 42
+    },
+    {
+      "tagid": 1023537,
+      "name": "Boomer Shooter",
+      "steam_api_popularity_rank": 306,
+      "steamdb_subgenre_rank": 47
+    },
+    {
+      "tagid": 26921,
+      "name": "Political Sim",
+      "steam_api_popularity_rank": 312,
+      "steamdb_subgenre_rank": 49
+    },
+    {
+      "tagid": 1674,
+      "name": "Typing",
+      "steam_api_popularity_rank": 315,
+      "steamdb_subgenre_rank": 48
+    },
+    {
+      "tagid": 1730,
+      "name": "Sokoban",
+      "steam_api_popularity_rank": 316,
+      "steamdb_subgenre_rank": 46
+    },
+    {
+      "tagid": 91114,
+      "name": "Shop Keeper",
+      "steam_api_popularity_rank": 319,
+      "steamdb_subgenre_rank": 50
+    },
+    {
+      "tagid": 454187,
+      "name": "Traditional Roguelike",
+      "steam_api_popularity_rank": 338,
+      "steamdb_subgenre_rank": 52
+    },
+    {
+      "tagid": 769306,
+      "name": "Escape Room",
+      "steam_api_popularity_rank": 343,
+      "steamdb_subgenre_rank": 51
+    },
+    {
+      "tagid": 56690,
+      "name": "On-Rails Shooter",
+      "steam_api_popularity_rank": 360,
+      "steamdb_subgenre_rank": 53
+    },
+    {
+      "tagid": 71389,
+      "name": "Spelling",
+      "steam_api_popularity_rank": 364,
+      "steamdb_subgenre_rank": 54
+    },
+    {
+      "tagid": 1100686,
+      "name": "Outbreak Sim",
+      "steam_api_popularity_rank": 367,
+      "steamdb_subgenre_rank": 55
+    },
+    {
+      "tagid": 922563,
+      "name": "Roguevania",
+      "steam_api_popularity_rank": 373,
+      "steamdb_subgenre_rank": 56
+    },
+    {
+      "tagid": 1100688,
+      "name": "Medical Sim",
+      "steam_api_popularity_rank": 379,
+      "steamdb_subgenre_rank": 57
+    },
+    {
+      "tagid": 1199779,
+      "name": "Extraction Shooter",
+      "steam_api_popularity_rank": 388,
+      "steamdb_subgenre_rank": 58
+    },
+    {
+      "tagid": 11095,
+      "name": "Boss Rush",
+      "steam_api_popularity_rank": 401,
+      "steamdb_subgenre_rank": 59
+    },
+    {
+      "tagid": 33572,
+      "name": "Mahjong",
+      "steam_api_popularity_rank": 426,
+      "steamdb_subgenre_rank": 60
+    },
+    {
+      "tagid": 158638,
+      "name": "Cricket",
+      "steam_api_popularity_rank": 443,
+      "steamdb_subgenre_rank": 61
+    }
+  ]
+}
