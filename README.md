@@ -75,8 +75,8 @@ Take **Metroidvania**, the case the paper opens with. Here is what the crosswalk
 - **`confidence`** — `high`, `medium`, or `low`. Reflects how clearly the tag and VGMS term map to one another given the scope notes and use cases at hand.
 - **`semantic_relationship`** — the relationship between the tag and the VGMS term, following thesaurus conventions. One of:
   - `equivalent` — the two refer to the same concept.
-  - `broader` — the VGMS term is broader than the Steam tag (the tag is a more specific case).
-  - `narrower` — the VGMS term is narrower than the Steam tag (the tag covers more ground).
+  - `broader` — the Steam tag is broader than the VGMS term (the tag covers more ground).
+  - `narrower` — the Steam tag is narrower than the VGMS term (the tag is a more specific case).
   - `related` — connected but neither is strictly a super- or subset of the other.
   - `no_match` — no meaningful relationship.
 - **`notes`** — free-text rationale documenting why the mapping was chosen, edge cases, or hesitations worth surfacing for future reviewers.
