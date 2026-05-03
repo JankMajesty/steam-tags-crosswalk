@@ -135,6 +135,8 @@ Without consistent upkeep of the schema, a player searching for "Metroidvania" i
 
 VGMS controlled vocabularies are released by the University of Washington Information School GAMER Group. Source PDFs are not redistributed in this repository; download them from the [GAMER Group GitHub](https://github.com/uwgamergroup). SteamDB Sub-Genre groupings transcribed from [SteamDB's tag browser](https://steamdb.info/tags/).
 
+**AI assistance:** Claude Code (Anthropic) was used as a coding assistant during pipeline development. All manual classifications in `manual_classifications.json`, the analysis in the accompanying paper, and the editorial decisions throughout the crosswalk are the author's own.
+
 ## License
 
 Released under the MIT License. See [LICENSE](LICENSE).
